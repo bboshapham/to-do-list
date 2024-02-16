@@ -7,12 +7,11 @@ class ToDoListPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column( 
+    return Column(
       children: [
         ToDoHeader(),
-        Expanded(child: ToDoList()),
+        const Expanded(child: ToDoList()),
       ],
-    ); 
+    );
   }
-
 }
